@@ -1,0 +1,161 @@
+.nav-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    color: rgb(129, 22, 22) !important;
+    font-size: 30px;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.search-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(129, 22, 22);             
+  border: 2px solid rgb(129, 22, 22);  
+  border-radius: 0.50rem;      
+  background-color: transparent; 
+  text-decoration: none;      
+  transition: all 0.3s ease;   
+}
+
+.search-btn:hover {
+  background-color: rgb(129, 22, 22);  
+  color: #fff;               
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 510px; 
+  overflow: hidden;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-top: 4.5rem;
+}
+
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7); 
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1; 
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin: 1rem 0;
+}
+
+.header-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;             
+  background-color: rgb(129, 22, 22); 
+  text-decoration: none;      
+  transition: all 0.3s ease;   
+}
+
+.header-btn:hover {
+  background-color: rgb(0, 94, 13);  
+  color: #fff;               
+}
+
+.footer { 
+  color: white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #28a745; 
+}
+
+.footer .social-icons i {
+  font-size: 1.2rem;
+}
+.text-about{
+   color: rgb(129, 22, 22);
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center; 
+
+}
+
+.colored-line {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.colored-line::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%; 
+  height: 4px;
+  background: linear-gradient(to right, #ff0000, #000000, #28a745);
+  border-radius: 2px;
+}
+.color-font{
+      color: rgb(129, 22, 22); 
+}
+.color-bg{
+   background-color: rgb(129, 22, 22);
+}
+
+.btn-sm-hovers:hover {
+  background-color: rgb(0, 94, 13);  
+  color: #fff;               
+}
+
+.admin-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;             
+  background-color: rgb(129, 22, 22); 
+  text-decoration: none;      
+  transition: all 0.3s ease;   
+}
+
+.admin-btn:hover {
+  background-color: #fff;  
+  color: rgb(129, 22, 22);               
+}
+
+.admin-color:hover{
+  color: #fff !important;
+}
